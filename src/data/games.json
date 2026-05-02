@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile!",
+    "category": "Puzzle",
+    "iframeUrl": "https://play2048.co/",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "Fast-paced puzzle game based on hexagons.",
+    "category": "Arcade",
+    "iframeUrl": "https://hextris.io/",
+    "thumbnail": "https://images.unsplash.com/photo-1605398294191-766aacc6940c?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "uno",
+    "title": "Uno Online",
+    "description": "Play the classic card game with friends or AI.",
+    "category": "Strategy",
+    "iframeUrl": "https://uno-online.com/",
+    "thumbnail": "https://images.unsplash.com/photo-1621259182978-f09e5e2ca1ff?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "stack",
+    "title": "Stack",
+    "description": "Stack the blocks as high as you can.",
+    "category": "Arcade",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&h=300&auto=format&fit=crop"
+  },
+  {
+    "id": "chess",
+    "title": "Speed Chess",
+    "description": "Challenge the AI in a quick game of chess.",
+    "category": "Strategy",
+    "iframeUrl": "https://lichess.org/embed/export/p6O8R8Y1/white",
+    "thumbnail": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?q=80&w=400&h=300&auto=format&fit=crop"
+  }
+]

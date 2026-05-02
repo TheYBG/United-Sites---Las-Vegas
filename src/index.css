@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-vegas-gold: #D4AF37;
+  --color-vegas-purple: #A020F0;
+  --color-vegas-neon: #BB86FC;
+  --color-vegas-dark: #050505;
+}
+
+@layer base {
+  body {
+    @apply bg-vegas-dark text-zinc-100;
+    background-image: 
+      radial-gradient(circle at 20% 20%, rgba(160, 32, 240, 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+
+  * {
+    @apply border-zinc-900;
+  }
+}
+
+@utility bg-glass {
+  background: rgba(10, 10, 11, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@utility text-glow-gold {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+@utility text-glow-purple {
+  text-shadow: 0 0 12px rgba(187, 134, 252, 0.4);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
